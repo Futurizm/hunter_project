@@ -1,0 +1,60 @@
+*:before, *:after, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+}
+
+/* =================== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1920px;
+}
+
+/* ========== */
+
+.main__page__container {
+    background-color: #171523;
+    min-height: 1070px;
+    width: 100%;
+}
+
+.main__page__blur {
+    filter: blur(147.8000030517578px);
+    width: 100vw;
+    position: absolute;
+    z-index: 0;
+}
+
+.main__page__line {
+    height: 980px;
+    width: 100vw;
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
